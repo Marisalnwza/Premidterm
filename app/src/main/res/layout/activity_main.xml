@@ -29,16 +29,16 @@
         android:background="#FFFFFF"
         android:ems="10"
         android:inputType="number"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/cal_button"
         app:layout_constraintEnd_toEndOf="@+id/editTextNumber"
         app:layout_constraintStart_toStartOf="@+id/editTextNumber"
         app:layout_constraintTop_toBottomOf="@+id/editTextNumber" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/cal_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="@string/calculate"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/editTextNumber2"
         app:layout_constraintStart_toStartOf="@+id/editTextNumber2"
